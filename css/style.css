@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.navigation {
+  margin-top: 0px;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: Handlee;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px ;
+  font-size: 9mm;
+}
+
+.nav-left ul li a:hover {
+  color: white;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+
+.content-left {
+  font-family: Cairo;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+  border: 2px solid rgb(229, 255, 0);
+  
+}
+
+.home-articles {
+  padding: 18px;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  margin-top: 23px;
+  position: relative;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+
+.home-article img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.Cairo{
+  font-family: Cairo;
+}
+
+.credit{
+  padding-left: 1000px;
+  font-family: Courgette;
+  font-size: 7mm;
+  position: relative;
+}
+.credit-name{
+  padding-left: 1000px;
+  font-family: Permanent_Marker;
+  font-size: 5mm;
+  
+}

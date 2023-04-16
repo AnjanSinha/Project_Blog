@@ -1,0 +1,45 @@
+
+/*-----------cairo font pack*/
+
+@font-face {
+    font-family:Cairo;
+    src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+/*-----------Handlee font pack*/
+
+@font-face {
+    font-family:Handlee;
+    src: url('../fonts/Handlee/Handlee-Regular.ttf');
+}
+/*-----------Kaushan_Script font pack*/
+
+@font-face {
+    font-family:Kaushan_Script;
+    src: url('../fonts/Kaushan_Script/KaushanScript-Regular.ttf');
+}
+/*-----------Playfair_Display font pack*/
+
+@font-face {
+    font-family:Playfair_Display;
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+}
+/*-----------Courgette font pack*/
+@font-face {
+    font-family:Courgette;
+    src: url('../fonts/Courgette/Courgette-Regular.ttf');
+}
+/*-----------Gluten font pack*/
+@font-face {
+    font-family:Gluten;
+    src: url('../fonts/Gluten/Gluten-VariableFont_wght.ttf');
+}
+/*-----------knewave font pack*/
+@font-face {
+    font-family:Knewave;
+    src: url('../fonts/Knewave/Knewave-Regular.ttf');
+}
+/*-----------permanent marker font pack*/
+@font-face {
+    font-family:Permanent_Marker;
+    src: url('../fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+}
